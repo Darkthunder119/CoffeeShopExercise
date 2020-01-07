@@ -1,0 +1,86 @@
+<listTitle>Hot Drinks</listTitle>
+
+<list>
+    <item>
+        
+        <name>In-house Brew</name>
+        <listItem>
+        
+        <info>Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low acidity to bring everything together.
+        </info>
+        
+        <cost>$2.99</cost>
+        
+        </listItem>
+    </item>
+
+    <item>  
+        <name>Espresso</name>
+        <listItem>
+
+        <info>A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor profile. It features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral finish.
+        </info>
+
+        <cost>$4.99</cost>
+
+        </listItem>
+    </item>    
+</list>
+
+<listTitle>Cold Drinks</listTitle>
+
+<list>
+
+    <item>
+    <name>Cold Brew</name>
+        <listItem>
+
+        <info>Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the flavor of our amazing in-house coffee.
+        </info>
+
+        <cost>$3.99</cost>
+
+        </listItem>
+    </item>    
+
+    <item>
+    <name>Iced Chai Latte</name>
+        <listItem>
+        
+        <info>A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and poured over ice.
+        </info>
+
+        <cost>$6.99</cost>
+        
+        </listItem>
+    </item>
+</list>
+
+<listTitle>Pastries</listTitle>
+
+<list>
+    
+    <item>
+    <name>Bacon Oatmeal Raisin Cookie</name>
+        <listItem>
+        
+        <info>An infused bacon, sugar and egg mixture is folded into a perfect blend of oats, flour, raisins and cinnamon to create a soft and chewy textured cookie.
+        </info>
+
+        <cost>$3.50</cost>
+        
+        </listItem>
+    </item>    
+    
+    <item>
+    <name>Blueberry, Lemon and Thyme Muffin</name>
+        <listItem>
+        
+        <info>Tart and sweet, this classic blueberry and lemon combination comes with an earthy twist.
+        </info>
+
+        <cost>$2.50</cost>
+        
+        </listItem>
+    </item>
+</list>
