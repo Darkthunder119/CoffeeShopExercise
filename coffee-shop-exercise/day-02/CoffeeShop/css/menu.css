@@ -1,0 +1,71 @@
+#imageMenu{
+    background-image: url("../assets/coffee-circle.jpg");
+    width: 1440px;
+    height: 575px;
+    background-position: center;
+    background-size: cover;
+}
+
+#subNavigation{
+    width: 1440px;
+    height: 74px;
+    background-color: #393939;
+}
+#titlePage{
+    width: 285px;
+    height: 185px;
+    color: #FFF;
+    background-color: #393939;   
+    text-align: center; 
+    font: 100 60px Helvetica;
+}
+#listSubMenu{
+    text-align: center;
+    font-size: 21px;
+}
+.removeAnchorUnderline:hover, .removeAnchorUnderline:visited, .removeAnchorUnderline:link, .removeAnchorUnderline:active
+{
+    text-decoration: none;
+    color: #FFF;
+}
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Helvetica;
+}
+#hotDrinksMenu{
+    background-color: #FFF0ED;
+    width: 1440px;
+    text-align: center;
+}
+#pastriesMenu{
+    background-color: #FFF0ED;
+    width: 1440px;
+    text-align: center;
+}
+#coldDrinksMenu{
+    background-color: #F7F7F7;
+    width: 1440px;
+    text-align: center;
+}
+.sectionHeadings{
+    font: 100 60px Helvetica;
+    color: #393939;
+}
+.drinkInformation{
+    font: 18px Helvetica;
+    font-style: italic;
+    text-align: left;
+    width: 30%;
+}
+h3{
+    font: 100 33px Helvetica;
+}
+.cost{
+    color: #5BACC3;
+    font: 18px Helvetica;
+}
+#bannerLogo{
+    max-height: 120px;
+    height: 50px;
+}
