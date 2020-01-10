@@ -3,7 +3,7 @@ html{
     width: 100vw;
     color: #393939;
 }
-#testing{
+#navigation-top{
     background-color: #fff0ed;
 }
 #imageMenu{
@@ -13,17 +13,33 @@ html{
     background-size: cover;    
 }
 
-#testing2{
-    margin: inherit;
+.navMenu, .navMenu:hover, .navMenu:visited, .navMenu:link, .navMenu:active{
+    text-decoration: none;
+    font: 100 1.3125rem Helvetica;
+    color: #393939;
 }
-
-li{
+#navBlue{
+    color: #5BACC3;
+}
+#headingtwo-nitro{
+    margin: inherit;
+    font: 100 3.75rem Helvetica;
+}
+.style-inline-block{
+    width: 160px;
+    padding: 0 20px;
+    text-align: center;
+}
+ul{
+    padding-left: inherit;
+}
+.inline-block{
     display: inline-block;
+    box-sizing: border-box;
 }
 #subNavigation{
     height: 74px;
     background-color: #393939;
-    
 }
 #titlePage{
     width: 285px;
@@ -35,17 +51,22 @@ li{
     margin: 0 auto;
 }
 #listSubMenu{
+    font: 1.3125rem Helvetica;
+    text-transform: uppercase;
+    margin: 0;
     text-align: center;
-    font-size: 1.3125rem;
+}
+.style-inline-block-2{
+    box-sizing: border-box;
+    width: 180px;
+    padding: 0px 10px;
+    border-left: 2px solid #5BACC3;
+    margin: 25px 0px;
 }
 .removeAnchorUnderline:hover, .removeAnchorUnderline:visited, .removeAnchorUnderline:link, .removeAnchorUnderline:active
 {
     text-decoration: none;
     color: #FFF;
-}
-ul{ 
-    text-transform: uppercase;
-    font-family: Helvetica;
 }
 #hotDrinksMenu{
     background-color: #FFF0ED;
