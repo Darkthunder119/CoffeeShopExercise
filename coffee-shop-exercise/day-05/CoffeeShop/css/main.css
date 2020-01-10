@@ -1,0 +1,36 @@
+.icon{
+    height: 50px;
+}
+
+header, footer{
+    background-color: #FFF0ED;
+    font-family: Helvetica;
+    color: #393939;
+}
+main{
+    font-family: Helvetica;
+
+}
+button{
+    background-color: #5BACC3;
+    width: 180px;
+    height: 55px;
+    color: #FFF;
+    font: 21px Helvetica;
+}
+ul{
+    list-style-type: none;
+    font-size: 21px;
+}
+.footerText{
+    font-size: 21px;
+}
+h1{
+    font: 100 60px Helvetica;
+}
+#coffeeIntroWidth{
+    width: 18%;
+}
+#headingOfNav{
+    font: 100 60px Helvetica;
+}
