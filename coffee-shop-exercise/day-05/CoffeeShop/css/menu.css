@@ -3,27 +3,43 @@ html{
     width: 100vw;
     color: #393939;
 }
-#testing{
+#navigation-top{
     background-color: #fff0ed;
 }
-#imageMenu{
+#image-nav{
     background-image: url("../assets/coffee-circle.jpg");
-    height: 100vh;
+    height: 75vh;
     background-position: center;
     background-size: cover;    
 }
 
-#testing2{
-    margin: inherit;
+.navMenu, .navMenu:hover, .navMenu:visited, .navMenu:link, .navMenu:active{
+    text-decoration: none;
+    font: 100 1.3125rem Helvetica;
+    color: #393939;
 }
-
-li{
+#nav-blue{
+    color: #5BACC3;
+}
+#headingtwo-nitro{
+    margin: inherit;
+    font: 100 3.75rem Helvetica;
+}
+.style-inline-block{
+    width: 160px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.list-padding{
+    padding-left: inherit;
+}
+.inline-block{
     display: inline-block;
 }
 #subNavigation{
     height: 74px;
     background-color: #393939;
-    
 }
 #titlePage{
     width: 285px;
@@ -35,49 +51,51 @@ li{
     margin: 0 auto;
 }
 #listSubMenu{
+    font: 1.3125rem Helvetica;
+    text-transform: uppercase;
+    margin: 0;
     text-align: center;
-    font-size: 1.3125rem;
+}
+.style-inline-block-2{
+    box-sizing: border-box;
+    width: 180px;
+    padding: 0px 10px;
+    border-left: 2px solid #5BACC3;
+    margin: 25px 0px;
 }
 .removeAnchorUnderline:hover, .removeAnchorUnderline:visited, .removeAnchorUnderline:link, .removeAnchorUnderline:active
 {
     text-decoration: none;
     color: #FFF;
 }
-ul{ 
-    text-transform: uppercase;
-    font-family: Helvetica;
-}
-#hotDrinksMenu{
+.menu{
     background-color: #FFF0ED;
     text-align: center;
 }
-#pastriesMenu{
-    background-color: #FFF0ED;
-    text-align: center;
-}
-#coldDrinksMenu{
+
+.menu--light-blue{
     background-color: #F7F7F7;
     text-align: center;
 }
-.sectionHeadings{
+.menu__section-headings{
     font: 100 3.75rem Helvetica;
     color: #393939;
-    margin-top: inherit;
+    margin-top: 0;
 }
-.drinkInformation{
+.menu__drink-information{
     font: 1.125rem Helvetica;
     font-style: italic;
     width: 33%;
     margin: 0 auto;
 }
-h3{
+.menu__sub-headings{
     font: 100 2.0625rem Helvetica;    
 }
-.cost{
+.menu__drink-information--cost{
     color: #5BACC3;
+    margin-bottom: 0;
     font: 1.125rem Helvetica;
-    margin-bottom: inherit;
 }
-#bannerLogo{
-    height: 50px;
+.logo{
+    min-height: 50px;
 }

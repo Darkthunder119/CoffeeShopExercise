@@ -1,36 +1,115 @@
-.icon{
-    height: 50px;
+html{
+    font-size: 16px;
+    width: 100vw;
 }
-
-header, footer{
-    background-color: #FFF0ED;
+*{
+    box-sizing: border-box;
     font-family: Helvetica;
     color: #393939;
 }
-main{
-    font-family: Helvetica;
-
+.icon{
+    min-height: 50px;
 }
-button{
+.section--pink{
+    background-color: #FFF0ED;
+}
+.section__button{
     background-color: #5BACC3;
     width: 180px;
     height: 55px;
     color: #FFF;
-    font: 21px Helvetica;
+    font: 1.3125rem Helvetica;
 }
-ul{
+.section__list-menu{
     list-style-type: none;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
-.footerText{
-    font-size: 21px;
+.section__name{
+    font: 100 3.75rem Helvetica;
+    margin-left: 10px; 
+    margin-bottom: 0;
 }
-h1{
-    font: 100 60px Helvetica;
+.section__inline-block{
+    display: inline-block;
 }
-#coffeeIntroWidth{
-    width: 18%;
+.section--gray{
+    background-color: #F7F7F7;
 }
-#headingOfNav{
-    font: 100 60px Helvetica;
+.card{
+    width: 20vw;
+    height: 30%;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.25);
+    margin: 5% 5% 5% 7%;
+    background-color: #FFF;
+    text-align: center;
+    padding-top: 1%;
+}
+.section__button--centered{
+    text-align: center;
+    padding: 3% 0 5% 0;
+}
+.section__discount--centered{
+    text-align: center;
+    height: 30vh;
+}
+.section__discount--background{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 12vh;
+    font-size: 2.8125rem;
+    color: #FFF;
+    margin: 8% 15% 0% 15%;
+    padding-top: 1%;
+}
+.section__footer--spacing{
+    font-size: 1.3125rem;
+    width: 25%;
+    margin-left: 5%;
+}
+.section__nav-list, .section__nav-list:hover, .section__nav-list:link, .section__nav-list:active, .section__nav-list:visited{
+    text-decoration: none;
+    color: #393939;
+}
+#section__nav-list--blue{
+    color: #5BACC3;
+}
+.section__sitename{
+    font: 100 3.75rem Helvetica;
+    padding-left: 15%;
+}
+.section__nav-list--box{
+    width: 140px;
+    padding: 0 10px;
+}
+.section__card-title{
+    margin-top: 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3.75rem;
+    padding-top: 10vh;
+}
+.section__hero-image--align{
+    padding-left: 10%;
+    padding-top: 15%;
+}
+.card__image--height{
+    height: 250px;
+}
+.card__content--blue{
+    color: #5BACC3;
+    font-size: 1.3125rem;
+}
+.card__content{
+    font-size: 1.3125rem;
+    font-weight: 300;
+}
+.section__footertext--weight{
+    font-weight: 300;
+}
+.section__button--aligned{
+    padding-left: 15%;
+    margin: 10% 0 10% 0;
+}
+.section__text--aligned{
+    padding-left: 15%;
+    width: 60%;
 }
