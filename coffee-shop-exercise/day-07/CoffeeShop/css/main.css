@@ -1,0 +1,174 @@
+html{
+    font-size: 16px;
+    width: 100vw;
+}
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #393939;
+}
+.icon{
+    height: 50px;
+}
+.section--pink{
+    background-color: #FFF0ED;
+}
+.section__button{
+    background-color: #5BACC3;
+    width: 180px;
+    height: 55px;
+    color: #FFF;
+    font: 1.3125rem Helvetica;
+    position: absolute;
+}
+.section__nothing-box{
+    width: 180px;
+    height: 55px;
+    border: 2px solid;
+    position: relative;
+    top: -5px;
+    right: 5px;
+}
+.section__list-menu{
+    list-style-type: none;
+    font-size: 1.3125rem;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+.section__name{
+    font: 100 3.75rem Helvetica;
+    margin-right: auto; 
+}
+.section--gray{
+    background-color: #F7F7F7;
+}
+.card{
+    width: 20vw;
+    height: 30%;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.25);
+    margin: 5% 2% 5% 2%;
+    background-color: #FFF;
+    text-align: center;
+    padding-top: 1%;
+}
+.section__discount--background{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 12vh;
+    font-size: 2.8125rem;
+    color: #FFF;
+    padding: 0% 2%;
+}
+.section__footer--spacing{
+    font-size: 1.3125rem;
+    width: 25%;
+    margin-left: 5%;
+}
+.section__nav-list, .section__nav-list:hover, .section__nav-list:link, .section__nav-list:active, .section__nav-list:visited{
+    text-decoration: none;
+    color: #393939;
+}
+#section__nav-list--blue{
+    color: #5BACC3;
+}
+.section__sitename{
+    font: 100 3.75rem Helvetica;
+}
+
+.section__card-title{
+    margin-top: 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3.75rem;
+    padding-top: 5%;
+}
+.section__hero-image{
+    margin: 5% 0%;
+}
+.card__image--height{
+    height: 250px;
+}
+.card__content--blue{
+    color: #5BACC3;
+    font-size: 2.3125rem;
+}
+.card__content{
+    font-size: 1.3125rem;
+    font-weight: 300;
+}
+.section__footertext--weight{
+    font-weight: 300;
+}
+.section__button--aligned{
+    margin: 5% 0 5% 0;
+}
+.section__text--aligned{
+    width: 40%;
+}
+.section__flex--center{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section__flex--aligned{
+    align-items: center;
+}
+.section__flex--normal{
+    display: flex;
+    justify-content: space-around;
+}
+.section__flex--left-text{
+    text-align: left;
+}
+.section__button--padding{
+    padding: 0% 0% 5% 0;
+}
+.nav-bar__inline-flex{
+    display: inline-flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+.section__flex--between{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.section__back-image{
+    background-image: url("../assets/coldbrewbackground.png");
+    background-position: center;
+    background-size: cover;
+    width: 435px;
+    height: 435px;
+}
+.section__spacing{
+    min-height: 500px;
+}
+.section__nothing-box--image-box{
+    width: 435px;
+    height: 435px;
+    border: 4px solid #5BACC3;
+    position: relative;
+    top: -25px;
+    right: 25px;
+}
+.section__image--absolute{
+    position: absolute;
+}
+.section__relative-images{
+    position: relative;
+}
+.footer__absolute{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+.footer__absolute--second{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 0;
+}
