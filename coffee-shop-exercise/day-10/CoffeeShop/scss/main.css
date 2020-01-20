@@ -27,6 +27,11 @@ html {
   position: absolute;
 }
 
+.section__button-press:active {
+  -webkit-transform: translateX(5px) translateY(5px);
+          transform: translateX(5px) translateY(5px);
+}
+
 .section__nothing-box {
   width: 180px;
   height: 55px;
@@ -73,6 +78,32 @@ html {
   font-size: 2.8125rem;
   color: #FFF;
   padding: 0% 2%;
+  -webkit-animation: pulse 2.5s infinite;
+          animation: pulse 2.5s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  50% {
+    background-color: #5BACC3;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  50% {
+    background-color: #5BACC3;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
 }
 
 .section__footer--spacing {
@@ -196,6 +227,8 @@ html {
   background-size: cover;
   width: 435px;
   height: 435px;
+  position: relative;
+  z-index: 2;
 }
 
 .section__spacing {
@@ -209,6 +242,7 @@ html {
   position: relative;
   top: -25px;
   right: 25px;
+  z-index: 1;
 }
 
 .section__image--absolute {
@@ -233,5 +267,40 @@ html {
   height: 50px;
   bottom: 10px;
   right: 0;
+}
+
+.section__spin-animation {
+  width: inherit;
+  height: inherit;
+  background-image: url(../assets/tiltedcan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section__spin-animation:hover {
+  -webkit-animation: spin 2s infinite;
+          animation: spin 2s infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=main.css.map */
