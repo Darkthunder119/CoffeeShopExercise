@@ -1,0 +1,73 @@
+#image-nav{
+    background-image: url("../assets/coffee-circle.jpg");
+    height: 75vh;
+    background-position: center;
+    background-size: cover;    
+}
+
+#subNavigation{
+    height: 74px;
+    background-color: #393939;
+}
+.title__name{
+    width: 285px;
+    height: 185px;
+    color: #FFF;
+    background-color: #393939;   
+    font: 100 3.75rem Helvetica;
+    position: absolute;
+}
+.title__border-relative{
+    width: 285px;
+    height: 185px;
+    border: 4px solid #5BACC3;
+    position: relative;
+    top: -15px;
+    right: 15px;
+}
+.style-inline-block-2{
+    width: 180px;
+    padding: 0px 10px;
+    border-left: 2px solid #5BACC3;
+    margin: 25px 0px;
+    font-size: 1.3125rem;
+}
+#nav-white
+{
+    color: #FFF;
+}
+.menu{
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.menu--light-blue{
+    background-color: #F7F7F7;
+    text-align: center;
+}
+.menu__section-headings{
+    font: 100 3.75rem Helvetica;
+    color: #393939;
+    margin-top: 0;
+    padding-top: 2%;
+}
+.menu__drink-information{
+    font: 1.125rem Helvetica;
+    font-style: italic;
+    width: 33%;
+    margin: 0 auto;
+}
+.menu__sub-headings{
+    font: 100 2.0625rem Helvetica;    
+}
+.menu__drink-information--cost{
+    color: #5BACC3;
+    margin-bottom: 0;
+    font: 1.125rem Helvetica;
+}
+.logo{
+    height: 50px;
+}
+.section__inherit-margin{
+    margin: inherit;
+}
